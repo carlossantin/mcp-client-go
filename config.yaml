@@ -18,7 +18,7 @@ agents:
   - name: my-agent
     servers:
       - Name: my-mcp-server
-        AllowedTools:
-          - component_documentation
-          - component_egress_dependencies
+        # AllowedTools:
+        #   - component_documentation
+        #   - component_egress_dependencies
     provider: my-azure-provider
